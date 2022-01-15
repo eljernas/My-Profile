@@ -409,7 +409,16 @@ transition: all 1s ease;
 
 @media (max-width:490px) {
     .topbar{
-        max-width:85%;
+        width:100%;
+        left:0px;
+        justify-content: space-around
+    }
+    .activetop{
+        width:100%;
+        right: 0px;
+    }
+    .toger{
+        right:100px;
     }
     .conectwith h3{
         font-size:25px;
@@ -450,7 +459,7 @@ font-size: 40px;
        
     }
     .footer h3{
-       margin-bottom:2px; 
+       padding-top: 21px;
 
     }
     .footernight{
@@ -462,7 +471,7 @@ font-size: 40px;
         
     }
     .footernight h3{
-        font-size: 16px;
+        font-size: 14px;
         margin-top:11px;
     }
     .activemain{
@@ -472,5 +481,19 @@ font-size: 40px;
         bottom: 80px;
         right:45px;
     }
-}
+    .main{
+        right:0px;
+    }
+    .imbox2 img {
+        width: 100%;
+        height: 100%;
+        margin-left: -16px;
+    }
+    .cards{
+        margin-left: -16px;
+    }
+    .projects{
+        width:100%;
+    }
 
+}
