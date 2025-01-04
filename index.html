@@ -32,7 +32,7 @@
         <!-- ---------------------------------------------------- -->
 
         <!-- main section-->
-        <div class="main">
+        <div class="main back">
             <!-- topbar section-->
 
             <div class="topbar">
@@ -186,6 +186,7 @@
         moon.addEventListener("click",(eo)=>{
             eo.target.innerHTML=` <i class="fas fa-moon"></i>`;
             main.classList.toggle("mainnight");
+             main.classList.toggle("back");
             footer.classList.toggle("footernight");
     
 if (footer.classList.contains("footernight")) {
