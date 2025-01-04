@@ -67,8 +67,11 @@ body{
     min-height: 100vh;
     left:20%;
     transition:all 1s ease ;
-background: linear-gradient(239deg, #000, #fff);
 
+
+}
+.back{
+    background: linear-gradient(239deg, #000, #fff);
 }
 .activemain{
     left:0;
