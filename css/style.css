@@ -67,7 +67,7 @@ body{
     min-height: 100vh;
     left:20%;
     transition:all 1s ease ;
-
+background: linear-gradient(239deg, #000, #fff);
 
 }
 .activemain{
@@ -347,7 +347,7 @@ transition: all 1s ease;
 
 /*night mode */
 .mainnight{
-    background-color: #9e4673;
+    background-color: #9e4673 !impotant;
     color:#fff;
 
 }
